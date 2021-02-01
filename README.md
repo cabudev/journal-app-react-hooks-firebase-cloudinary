@@ -1,68 +1,69 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#App educativa React Serverless - Journal APP
 
-## Available Scripts
+```
+App realizada con Create React APP y React Hooks
+https://create-react-app.dev/docs/getting-started/
+https://es.reactjs.org/
+```
 
-In the project directory, you can run:
+```
+Estado mantenido mediante Redux
+https://es.redux.js.org/
+https://react-redux.js.org/
+```
 
-### `npm start`
+```
+Estilos mediante SASS
+https://sass-lang.com/
+```
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+Validación de formularios mediante NPM Validator
+https://www.npmjs.com/package/validator
+```
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+#App Serverless con Firebase y Cloudinary
 
-### `npm test`
+```
+Autenticación mediante Firebase Authentication (con email y password o con GMAIL)
+Almacenamiento y lectura de datos en Firestore
+https://firebase.google.com/
+```
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+Si no conoces Firebase aquí te dejo un enlace a la playlist de Fernando Herrera en youtube que explica todo sobre Firestore empezando por su configuración.
 
-### `npm run build`
+Si estas aprendiendo cosas relacionadas con el Full stack JavaScript te recomiendo sus cursos de Udemy, de lo mejor que he visto por alli.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+https://www.youtube.com/playlist?list=PLCKuOXG0bPi29EkcAuVCln9ISbExcQk66
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```
+Subir imágenes y visualizar mediante Cloudinary
+https://cloudinary.com/
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+La APP necesita las siguientes variables de entorno en el fichero que hay que crear en la raiz
+.env.development.local
 
-### `npm run eject`
+Configuración Firebase:
+REACT_APP_FB_API_KEY=
+REACT_APP_FB_AUTH_DOMAIN=
+REACT_APP_FB_DATABASE_URL=
+REACT_APP_FB_PROJECT_ID=
+REACT_APP_FB_STORAGE_BUCKET=
+REACT_APP_FB_MESSAGING_SENDER_ID=
+REACT_APP_FB_APP_ID=
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Configuración Cloudinary:
+REACT_APP_CLOUDINARY_URL=
+REACT_APP_CLOUDINARY_UPLOAD_PRESET=
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+```
+Cualquier consulta no duden en escribirme:
+Catalín Budai
+budaimc@gmail.com
+```
